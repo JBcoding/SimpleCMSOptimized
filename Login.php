@@ -58,7 +58,7 @@ if (isset($_POST['submit'])) { // Form has been submitted.
 }
 if (!$Login) {
 	echo ' <h1>JBiD by JBcoding</h1>
-            <h3>Not a member? Create a user <a href="create.html">here</a></h3>
+            <h3>Not a member? Create a user <a href="SignUp.php">here</a></h3>
             <form method="post">
             	<p id="error">' . $message . '</p>
                 <p>Email</p>
