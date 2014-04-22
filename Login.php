@@ -65,7 +65,7 @@ if (!$Login) {
                 <input type="email" required autofocus name="mail">
                 <p>Password</p>
                 <input type="password" required name="password">
-                <p id="forgottenPassword"><a href="#">Forgot your password?</a></p>
+                <p id="forgottenPassword"><a href="PasswordReset.php">Forgot your password?</a></p>
                 <input type="submit" value="Login" name="submit">
             </form>';
 }
