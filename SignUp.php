@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) { // Form has been submitted.
 } 
 if (!$Login) {
 	echo '<h1>Create JBiD</h1>
-            <h3>User creation - Got here by accident? Go to <a href="index.html">login</a></h3>
+            <h3>User creation - Got here by accident? Go to <a href="index.php">login</a></h3>
             <form id="createUser" method="post">
             	<p id="error">' . $message . '</p>
                 <p>Email</p>
